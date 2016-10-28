@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="3dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="3dp" >
+
+    <TextView
+        android:id="@+id/tv_key"
+        style="@style/Text.secondaryListTitle"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="基数达成率 "
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/fontGreyDivider"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_value"
+        style="@style/Text.primaryListSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="20.00"
+        android:textSize="16sp" />
+
+</LinearLayout>

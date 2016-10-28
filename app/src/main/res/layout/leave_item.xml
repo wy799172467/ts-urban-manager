@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_bg_blue"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/txtLeaveTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="请假条"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/fontBlack" />
+
+    <TextView
+        android:id="@+id/txtLeaveReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtLeaveDate"
+        android:layout_below="@+id/txtLeaveTitle"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:text="    我要请假回家看世界杯，肯请领导同意，感激之情不能言表！"
+        android:textColor="@color/fontBlack"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtleaveType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/fontGray" />
+
+<TextView
+    android:id="@+id/txtLeaveDate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"    
+    android:layout_alignParentLeft="true"    
+    android:layout_below="@id/txtLeaveReason"
+    android:text="2015-3-19 12:00 ~ 2015-10-20 11:00"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="@color/fontGray" />
+
+    <TextView
+        android:id="@+id/txtIsPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtLeaveReason"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/fontGray" />
+
+</RelativeLayout>

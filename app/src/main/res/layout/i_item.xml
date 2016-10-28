@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="3dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="3dp" >
+
+    <TextView
+        android:id="@+id/tv_key"
+        style="@style/Text.secondaryListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="宗地号: " />
+
+    <TextView
+        android:id="@+id/tv_value"
+        style="@style/Text.primaryListSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="12345" />
+
+    <TextView
+        android:id="@+id/tv_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@color/fontLBlue"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="征地地块"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+</LinearLayout>

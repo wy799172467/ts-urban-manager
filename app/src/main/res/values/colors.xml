@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="splash_bg_color">#FF206DB7</color>
+    <color name="menu_list_color">#333333</color>
+    <color name="menu_top_color">#252525</color>
+    <color name="lightGrey">#f4f4f4</color>
+    <color name="disabled_btn_text_color">#FFB9B9B9</color>
+    <color name="white">#fffffff0</color>
+    <color name="divider_color">#3B3B3B</color>
+    <color name="babywhite">#ff98d0f3</color>
+    <color name="fontRed">#FFFF4141</color>
+    <color name="fontGreen">#FF67EE74</color>
+    <color name="fontBlue">#FF206DB7</color>
+    <color name="fontGray">#FF9A9A9A</color>
+    <color name="fontLBlack">#FF454545</color>
+    <color name="fontGWhite">#fff5f5f5</color>
+    <color name="fontWhite">#FFFFFFFF</color>
+    <color name="ghostWhite">#FFF8F8FF</color>
+    <color name="AliceBlue">#FFF0F8FF</color>
+    <color name="fontBlack">#FF313131</color>
+    <color name="fontYellow">#FFFFB90F</color>
+    <color name="fontLBlue">#FF6495ED</color>
+    <color name="tabBottomLineHideViewStubBgColor">#FFFFFFFF</color>
+    <color name="fontTitle">#FF6B9720</color>
+    <color name="fontLRed">#FFFF82AB</color>
+    <color name="fontLYellow">#FFFAA528</color>
+    <color name="allwhite">#ffffffff</color>
+    <color name="unfocused">#cccccccc</color>
+    <color name="pressed">#fff22fff</color>
+    <color name="selected">#fff33fff</color>
+    <color name="focused">#ffff44ff</color>
+    <color name="pressed_example">#CC206DB7</color>
+    <color name="tab_unselected_example">#FF303030</color>
+    <color name="transparent">#00000000</color>
+    <color name="fontGreyDivider">#FFCECECE</color>
+   <color name="listGreyDivider">#B8B8B8</color> 
+
+</resources>

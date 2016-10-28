@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.geone.inspect.threepart_ts.activity.DelayPostponeRejectCheckActivity" >
+
+    <TextView
+        android:id="@+id/txtDelayDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delay_check_date"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtDelayDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/delay_check_day"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtDelayReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/delay_check_reason"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtApprovePerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/delay_check_person"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtApproveStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/delay_check_status"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtApproveAdvice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/delay_check_advice"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtApproveDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/delay_approve_days"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtApproveDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/delay_check_date2"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnRejectAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_blue"
+        android:text="@string/btn_reject_again"
+        android:textColor="@color/fontWhite"
+        android:visibility="gone"
+        android:textSize="16sp" />
+
+</LinearLayout>

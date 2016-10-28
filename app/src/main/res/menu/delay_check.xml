@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.geone.inspect.threepart_ts.activity.DelayCheckActivity" >
+
+    <item
+        android:id="@+id/action_cancel"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/action_cancel"/>
+
+</menu>

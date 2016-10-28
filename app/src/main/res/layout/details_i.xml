@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="2dp" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginTop="8dp" />
+
+    <com.viewpagerindicator.LinePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pager"
+        android:layout_marginBottom="6dp"
+        app:lineWidth="10dp"
+        app:selectedColor="#FF226BF2"
+        app:strokeWidth="2dp"
+        app:unselectedColor="#FFD3D3D3" />
+
+    <LinearLayout
+        android:id="@+id/layout_i_tools"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_alignRight="@+id/pager"
+        android:gravity="center|right"
+        android:orientation="vertical"
+        android:paddingRight="20dp" >
+
+        <ImageButton
+            android:id="@+id/btn_i_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/button_i_ok" />
+
+<!--         <ImageButton -->
+<!--             android:id="@+id/ib_i_cancel" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:background="@android:color/transparent" -->
+<!--             android:src="@drawable/button_i_cancel" /> -->
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="共5个结果"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>
